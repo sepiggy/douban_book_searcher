@@ -1,0 +1,13 @@
+{
+    "manifest_version": 2,
+    "name": "瓣书",
+    "version": "0.1",
+    "description": "Douban books searcher",
+    "content_scripts": [
+        {
+            "matches": ["*://book.douban.com/*"],
+            "js": ["js/myscript.js"]
+        }
+    ]
+
+}
